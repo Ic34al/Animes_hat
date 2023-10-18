@@ -45,7 +45,7 @@ class Data:
     ABOUT = """
 <b>About this Bot:
 
- @Animes_Xyz_bot is a Telegram Bot for storing posts or files that can be accessed via a special link.
+ @Kakashi_hatake_xbot is a Telegram Bot for storing posts or files that can be accessed via a special link.
 
   • Creator: @Trippy_Xt
   • Framework: Pyrograms
