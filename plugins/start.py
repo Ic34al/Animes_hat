@@ -177,7 +177,7 @@ async def get_users(client: Bot, message: Message):
     await msg.edit(f"{len(users)} <b>Usᴇʀs ᴜsᴇ ᴛʜɪs ʙᴏᴛ</b>")
 
 
-@Bot.on_message(filters.command("broadcast") & filters.user(ADMINS, 5493260414))
+@Bot.on_message(filters.command("broadcast") & filters.user(ADMINS))
 async def send_text(client: Bot, message: Message):
     if message.reply_to_message:
         query = await query_msg()
